@@ -5,12 +5,7 @@ from preprocessing import preprocess_query
 from spellchecker import SpellChecker
 
 spell = SpellChecker()
-# import re
-# import nltk
 
-# from nltk.corpus import stopwords
-# from nltk.tokenize import word_tokenize
-# from nltk.stem import WordNetLemmatizer
 
 from scraper import scrape_faqs
 print("Updating FAQs from website...\n")
